@@ -1,25 +1,6 @@
 {
-    "name": "ems/ems",
-    "description": "A PHP project with MySQL support",
-    "type": "project",
     "require": {
-        "php": ">=7.4",
-        "ext-pdo": "*",
+        "php": "^8.0",
         "ext-mysqli": "*"
-    },
-    "autoload": {
-        "psr-4": {
-            "YourNamespace\\": "src/"
-        }
-    },
-    "require-dev": {
-        "phpunit/phpunit": "^9.0"
-    },
-    "scripts": {
-        "test": "phpunit --colors=always"
-    },
-    "config": {
-        "preferred-install": "dist",
-        "sort-packages": true
     }
 }
