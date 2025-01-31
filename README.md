@@ -39,13 +39,15 @@ The goal of this project is to develop a simple, web-based event management syst
 
 **•	Setup Instructions:**
 
-    o	Download the git repository or pull the git repository to local host xampp folder  htdocs
+    o	Download the git repository (and extracted) or pull the git repository to local host xampp folder --> htdocs
     o	Click Create a new database named ems for the project from http://localhost/phpmyadmin/ 
-    o	Open database (ems)  import database browse from the downloaded repository file (ems-main)  DB  ems.sql
+    o	Open database (ems)  import database browse from the downloaded repository file (ems-main) --> DB --> ems.sql
+    o   run the xampp server and start apache and mysql.
+    o   open any browser and paste it to the url section: http://localhost/ems-main/
     
 **3. Hosting and Code Submission**
 
-**•	Hosting:** Deploy on a free hosting site has some drawback and right now I don’t have any paid dedicated or shared hosting service.
+**•	Hosting:** Deploy on a free hosting site has some drawbacks (limitation of storage, and server crush issue) and right now I don’t have any paid dedicated or shared hosting service.
 
 **•	Code Submission:** github: https://tinyurl.com/emsgit 
 
