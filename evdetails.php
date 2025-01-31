@@ -70,7 +70,7 @@ while($result=mysqli_fetch_array($query)){
                 <p><strong>Event Name:</Strong>  <?php echo $result['BoatName'];?></p>
                 <p><strong>Event Size:</Strong>  <?php echo $result['Size'];?></p>
                 <p><strong>Capacity of Event:</Strong>  <?php echo $result['Capacity'];?> persons.</p>
-              <p><strong>Source:</Strong>  <?php echo $result['Source'];?></p> 
+              <p><strong>Organizer:</Strong>  <?php echo $result['Source'];?></p> 
               <p><strong>Destination: <?php echo $result['Destination'];?></strong> </p>
                 <p><strong>Location: <?php echo $result['Route'];?></strong> </p>
                 <p><strong>Price (bdt): <?php echo $result['Price'];?>(per head)</strong> </p>
